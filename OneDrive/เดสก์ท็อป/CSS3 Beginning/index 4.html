@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        #title{
+            color: red;
+            font-family: monospace;/*๊อ้างอิงจาก CSS FONT STACK*/ 
+        }
+        .message{
+            color: green;
+            font-family: 'Sriracha', cursive;/*๊Google Font*/
+            text-decoration: underline;/*๊text-decoration*/
+        }
+        h1{
+            color: blue;
+            font-family: 'Sriracha', cursive;
+            text-align: center;/*กำหนดตรงกลาง-ซ้าย-ขวา*/
+            
+        }
+        p{
+            text-align: justify;/*กำหนดตรงกลาง-ซ้าย-ขวา*/
+        }
+        *{ /*๊Universal Selector*/
+            
+            font-size: 20px;
+            font-weight: bold;
+        }
+        div{ /*๊กำหนดสี Color*/
+            color: rgb(52, 235, 183);/*Color(rgb,rgba)*/
+            background-color: rgb(162, 96, 15);
+        }
+        a{
+            text-decoration: none;/*ขีดเส้นใต้บน-ล่าง-และไม่มี*/
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Universal Selector</h1>
+    <p class="message">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam aliquid recusandae possimus? Culpa praesentium necessitatibus quod rem cum quam totam ratione? Minus est voluptatem architecto impedit excepturi suscipit cumque dolores!</p>
+    <hr>
+    <h1>Universal Selector</h1>
+    <p id="title">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem modi soluta totam distinctio quae fugiat numquam, reiciendis earum blanditiis dignissimos consequatur laborum, eaque est ea itaque alias magnam. Recusandae?
+    </p>
+    <hr>
+    <div style="border: 1px solid black;" width="500px" height="500px">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, id. Sapiente velit commodi esse ab dignissimos unde optio vitae dolore dolorum maxime? Incidunt omnis dolores aspernatur. Veniam pariatur qui necessitatibus!
+    </div>
+    <a href="#">CLICK</a>
+
+</body>
+</html>
